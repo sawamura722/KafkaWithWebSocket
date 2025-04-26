@@ -1,6 +1,6 @@
-#WebSocket only this time. No HTTP request.
+# WebSocket only this time. No HTTP request.
 
-#HTTP vs WebSockets
+# HTTP vs WebSockets
 
 For Structured Data Objects
 HTTP Advantages
@@ -32,13 +32,13 @@ Many apps use a hybrid approach:
 HTTP for CRUD operations on complex objects
 WebSockets for real-time updates and notifications
 
-#Code explaination (frontend)
+# Code explaination (frontend)
 .subscribe() - Sets up a listener to receive messages from the server
 .publish() - Sends a message/request to the server
 This is similar to HTTP GET, but follows a different pattern:
 
 
-#Installed library for frontend
+# Installed library for frontend
 
 npm install sockjs-client
 
