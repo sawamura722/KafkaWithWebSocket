@@ -32,12 +32,6 @@ Many apps use a hybrid approach:
 HTTP for CRUD operations on complex objects
 WebSockets for real-time updates and notifications
 
-# Code explaination (frontend)
-.subscribe() - Sets up a listener to receive messages from the server
-.publish() - Sends a message/request to the server
-This is similar to HTTP GET, but follows a different pattern:
-
-
 # Installed library for frontend
 
 npm install sockjs-client
